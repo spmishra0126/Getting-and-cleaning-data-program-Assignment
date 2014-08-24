@@ -1,8 +1,6 @@
 ##########################################################################################################
 
 ## Coursera Getting and Cleaning Data Course Project
-## Heather Wade
-## 2014-04-27
 
 # runAnalysis.r File Description:
 
@@ -23,7 +21,7 @@ rm(list=ls())
 # 1. Merge the training and the test sets to create one data set.
 
 #set working directory to the location where the UCI HAR Dataset was unzipped
-setwd('/Users/heather/Documents/UCI HAR Dataset/');
+setwd('F:/Data Science_Coursera/GettingData and Cleaning It Quiz/Assignment/getdata-projectfiles-UCI HAR Dataset/UCI HAR Dataset/');
 
 # Read in the data from files
 features     = read.table('./features.txt',header=FALSE); #imports features.txt
